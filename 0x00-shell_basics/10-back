@@ -1,3 +1,0 @@
-#!/bin/bash
-cd /tmp; pwd; cd /var; pwd
-cd -
