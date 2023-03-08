@@ -1,2 +1,6 @@
 #!/bin/bash
-cd ..
+cd /tmp
+pwd
+cd /var
+pwd
+cd -
