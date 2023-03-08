@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%s\n' ./* ../ | LC_ALL=C sort -df | sed -e 's/^.*\///' -e 's/$/,/' -e '$a\'
+ls -a1 | sed -e 's/[^[:alnum:].\/]/\\&/g' -e 's/$/,/' | sort -df | sed -e 's/^\.\{1,2\}$/&,/' -e 's/\([^\/]\)$/\1\//' | tr -d '\n' && echo
