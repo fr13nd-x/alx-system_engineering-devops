@@ -1,6 +1,2 @@
 #!/bin/bash
-input=$(cat)
-
-counts=$(echo "$input" | awk '{ count[$0]++ } END { for (word in count) print count[word], word }')
-
-echo "$counts" | awk '$1 == 1 { print $2 }' | sort
+sort | uniq -u

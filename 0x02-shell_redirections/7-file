@@ -1,3 +1,2 @@
 #!/bin/bash
-name = "\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"
-echo -e "Best School\n" > "$name"
+echo "Holberton School" > "\*\\\'\"Holberton School\"\'\\\*$\?\*\*\*\*\*:)"

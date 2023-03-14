@@ -1,6 +1,3 @@
 #!/bin/bash
-
-echo "Enter input string: "
-read input_string
-echo "$(echo $input_string | rev)"
+rev
 
