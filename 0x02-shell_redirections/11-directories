@@ -1,0 +1,9 @@
+#!/bin/bash
+count=0
+directories=$(find . -mindepth 1 -not -path "./.." -type d -print)
+for dir in $directories; do
+    # Increment the counter variable
+    ((count++))
+done
+
+print "$count"
