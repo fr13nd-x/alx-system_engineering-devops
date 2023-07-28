@@ -36,7 +36,7 @@ In this project, I learned about handling process ID's and signals in Bash with 
   * [8-beheaded_process](./8-beheaded_process): Bash script that kills the process [7-highlander](./7-highlander).
 
 
-![alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/d8ecfe9109334898b9540ffd20cf64d1c06f0c09.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220722%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220722T101619Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8831f4931db87fcebcbad63936313cf1ea4a070d0d73bc8ba8531a85eb862046)
+
 
 * **9. Process and PID file**
   * [100-process_and_pid_file](./100-process_and_pid_file): Bash script that creates the file `/var/run/myscript.pid` containing its PID and displays `To infinity and beyond` indefinitely.
